@@ -5,7 +5,8 @@ using var dbContext = new AppDbContext();
 
 var commands = new Dictionary<string, ICommand>
 {
-    {"list", new ListNotesCommand(dbContext) }
+    {"list", new ListNotesCommand(dbContext) },
+    {"create", new CreateNoteCommand(dbContext) }
 };
 
 while(true)
