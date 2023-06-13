@@ -9,7 +9,8 @@ var commands = new Dictionary<string, ICommand>
     {"create", new CreateNoteCommand(dbContext) },
     {"read", new ReadNoteCommand(dbContext) },
     {"update", new UpdateNoteCommand(dbContext) },
-    {"delete", new DeleteNoteCommand(dbContext) }
+    {"delete", new DeleteNoteCommand(dbContext) },
+    {"search", new SearchNoteCommand(dbContext) }
 };
 
 while(true)
