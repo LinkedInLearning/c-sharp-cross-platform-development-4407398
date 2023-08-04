@@ -1,7 +1,9 @@
 # C# Cross-Platform Development
-This is the repository for the LinkedIn Learning course C# Cross-Platform Development taught by Jesse Freeman. The course walks you through building a cross-platform note-taking console application called "HelloNote" using .NET 7 and Visual Studio. 
+This is the repository for the LinkedIn Learning course C# Cross-Platform Development. The full course is available from [LinkedIn Learning][lil-course-url].
 
-This repository contains code for different stages of the course, ranging from setting up the development environment and initializing the project, to modeling data and configuring a database, implementing CRUD operations following the command pattern, and finally, adding advanced features like tagging, establishing relationships between data models, and implementing search functionality. The course aims to give you a solid understanding of .NET application development.
+![C# Cross-Platform Development][lil-thumbnail-url] 
+
+In this course, learn the fundamentals of building cross-platform C# apps that work on Android, macOS/iOS, and Windows while leveraging .NET MAUI. Instructor Jesse Freeman shows you core concepts like setting up a cross-platform dev environment, building simple UI, navigating between app screens (pages), and implementing MVVM concepts with data binding XAML. Follow along with Jesse as he shows you how to apply what you’ve learned toward creating a simple note-taking app, and covers the skills you need to know to get started building cross-platform C# apps on your own.
 
 ## Instructions
 This repository uses a branch structure to correspond with different lessons in the course. The branches are named in the format `lesson-CHAPTER#.MOVIE#`, where CHAPTER# is the chapter number and MOVIE# is the video number in that chapter. You can switch to a specific branch using the branch pop-up menu in GitHub or by adding `/tree/BRANCH_NAME` to the URL.
@@ -37,9 +39,17 @@ To resolve this issue:
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 3. Follow the course-specific instructions provided in the course.
 
-If you're new to any of these concepts, consider exploring introductory resources in these areas first to build a strong foundation. The full course is available from [LinkedIn Learning][lil-course-url].
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+### Instructor
+
+Jesse Freeman 
+                            
+
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/jesse-freeman).
+
+[lil-course-url]: https://www.linkedin.com/learning/c-sharp-cross-platform-development?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQFN2A5GUfqgSw/learning-public-crop_288_512/0/1691011036247?e=2147483647&v=beta&t=mbFx4b-JokKdQ1t-OqvBE-tL3_Gg9FEsg7a-1CxfOrM
